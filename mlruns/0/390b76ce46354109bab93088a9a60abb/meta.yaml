@@ -1,0 +1,15 @@
+artifact_uri: file:///home/eddy/AiCore/Practices/MLFlow/MLFlow-SkLearn-Demo/mlruns/0/390b76ce46354109bab93088a9a60abb/artifacts
+end_time: 1631647450283
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 390b76ce46354109bab93088a9a60abb
+run_uuid: 390b76ce46354109bab93088a9a60abb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1631647448079
+status: 3
+tags: []
+user_id: eddy

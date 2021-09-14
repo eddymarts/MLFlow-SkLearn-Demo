@@ -1,0 +1,9 @@
+name: MLFlow-SkLearn-Demo
+ 
+conda_env: env.yaml
+ 
+entry_points:
+  main:
+    parameters:
+      n_neighbors: {type: int, default: 2}
+    command: "python model.py -r {n_neighbors}"
