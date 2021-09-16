@@ -6,4 +6,4 @@ entry_points:
   main:
     parameters:
       n_neighbors: {type: int, default: 5}
-    command: "python model.py -r {n_neighbors}"
+    command: "python load_model.py -r {n_neighbors}"

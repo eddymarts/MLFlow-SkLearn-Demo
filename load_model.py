@@ -12,6 +12,9 @@ import argparse
 X, y = datasets.load_iris(return_X_y=True)
 X_train, X_test, y_train, y_test = train_test_split(X, y,
                                         test_size=0.2, shuffle=True)
+sc = StandardScaler().fit(X_train)
+X_train =  sc.transform(X_train)
+X_test =  sc.transform(X_test)
 
 # THIS IS HOW YOU PARSE ARGUMENTS FROM THE COMMAND LINE
 def get_flags_passed_in_from_terminal():
