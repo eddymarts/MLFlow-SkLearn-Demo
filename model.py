@@ -21,7 +21,7 @@ def get_flags_passed_in_from_terminal():
 	return args
 args = get_flags_passed_in_from_terminal()
 number =  int(args.r)
-print(type(number), number)
+print("Arg parsed for number of neighours:", type(number), number)
 
 # By default experiment we've set will be used
 with mlflow.start_run():

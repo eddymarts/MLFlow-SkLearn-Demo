@@ -5,5 +5,5 @@ conda_env: env.yaml
 entry_points:
   main:
     parameters:
-      n_neighbors: {type: int, default: 7}
+      n_neighbors: {type: int, default: 5}
     command: "python model.py -r {n_neighbors}"
