@@ -132,3 +132,6 @@ dmypy.json
 *mlruns*
 *mlflow*
 *artifacts*
+
+#Environments
+*env*
