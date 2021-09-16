@@ -135,3 +135,6 @@ dmypy.json
 
 #Environments
 *env*
+
+# EC2 keys
+*.pem
